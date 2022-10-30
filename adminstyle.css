@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/login.jpg);
+    background-position: center;
+}
+.heading{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+}
+.heading h1{
+    color: white;
+}
+.admin{
+    width: 380px;
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 15%;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 40px);
+}
+.admin h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.admin p{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+.admin input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.admin input[type="text"],input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
+.admin input[type="Submit"]{
+    border: none;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(236, 33, 33);
+    width: 100%;
+    height: 40px;
+}
+.admin input[type="Submit"]:hover{
+    cursor: pointer;
+    background: rgb(172, 73, 73);
+    color: white;
+}
+.admin a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.admin a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}

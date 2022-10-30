@@ -1,0 +1,44 @@
+footer
+	{
+		height: 230px;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.788);
+		
+	}
+		.fa
+		{
+			margin: 0px 5px;
+			padding: 5px;
+			font-size: 30px;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 20%;
+		}
+		.fa:hover
+		{   
+            text-decoration: none;
+			opacity: .7;
+		}
+		.fa-facebook
+		{
+			background: #3B5998;
+			color: white;
+		}
+		.fa-twitter
+		{
+			background: #55ACEE;
+			color: white;
+		}
+		
+		.fa-instagram
+		{
+			background-color: purple;
+			color: white;
+		}
+		.fa-envelope
+		{
+			background: #9e1010;
+			color: white;
+		}

@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.signupbox{
+    margin-top: 60px;
+    width: 350px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 15%;
+    padding: 40px 30px;
+}
+.signupbox h3{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.signupbox p{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+.signupbox input{
+    width: 100%;
+}
+.signupbox input[type="text"],input[type="date"],input[type="number"]
+{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+}
+.signupbox input[type="Submit"]{
+    border: none;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(236, 33, 33);
+    width: 50%;
+    height: 40px;
+}
+.signupbox input[type="Submit"]:hover{
+    cursor: pointer;
+    background: rgb(172, 73, 73);
+    color: darkgray;
+}
+.signupbox a{
+    text-decoration: none;
+    color: darkgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+.signupbox a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+label{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px; 
+}
+.info{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    align-items: center;
+}
+.info p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    display: flexbox;
+    justify-content: space-around;
+}
+.name1 h1{
+    font-family: 'Quicksand';
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.904);
+    width: 30%;
+    border-radius: 20px;
+}
+.dash{
+    color: rgb(236, 33, 33);
+}
+
